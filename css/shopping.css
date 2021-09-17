@@ -1,0 +1,190 @@
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: .2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 2px;
+}
+
+.card-header {
+    background-color: darkgrey;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card {
+    border: 1px solid black;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+th {
+    text-align: inherit;
+}
+
+button {
+    border-radius: 0;
+}
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+input[type="text"],
+input[type="password"]::placeholder {
+    opacity: 1;
+}
+
+input[type="text"],
+input[type="password"] {
+    border-style: solid;
+    border-color: #ADADC9;
+    border-radius: 10px;
+    color: #666666;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 15px;
+    border: none;
+}
+
+.btn-update {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 15px;
+    border: none;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0000EE;
+    border-color: #0000EE;
+    padding: 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}

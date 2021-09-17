@@ -1,0 +1,140 @@
+.modal {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+    left: 72%;
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    margin-top: 0;
+    border: #FFD700;
+}
+
+.modal .modal-content {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 280px;
+}
+
+.modal .modal-content #container {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px 25px 25px;
+}
+
+.modal .modal-content #container #close {
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.modal .modal-content #container #close:hover {
+    color: #FF0000;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+    border-style: solid;
+    border-color: #ADADC9;
+    border-radius: 10px;
+    color: #666666;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: inline-block;
+}
+
+input[type="text"],
+input[type="password"]::placeholder {
+    opacity: 1;
+}
+
+#popup #sub-feature {
+    display: inline;
+    width: 140px;
+}
+
+#popup #sub-feature label {
+    float: left;
+    margin-top: 5px;
+}
+
+#container>input:focus {
+    outline: none !important;
+    border-color: #00B000;
+}
+
+#popup #container button {
+    background-color: #00B000;
+    border: none;
+    border-radius: inherit;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#popup #container button:hover {
+    background-color: #006600;
+}
+
+#container label input {
+    color: #ffffff;
+    margin-right: 5px;
+    background-color: #00B000;
+}
+
+.animate {
+    animation: animationzoom 0.5s;
+}
+
+
+/*--------CẢNH BÁO ĐĂNG NHẬP-----*/
+
+.alert-warning-login {
+    padding: 8px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -8px;
+    position: absolute;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+@keyframes animationzoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .modal {
+        top: 65%;
+        left: 100px;
+        z-index: 1000;
+        margin-top: -13px;
+    }
+    .modal .modal-content {
+        width: 250px;
+    }
+}
