@@ -8,7 +8,7 @@
 <div class="swiper-container mySwiper">
     <div class="swiper-wrapper">
         <div class="swiper-slide"><img src="images/pic12.jpg" alt=""></div>
-        <div class="swiper-slide"><img src="https://trasuapcute.com/wp-content/uploads/2020/06/website2-1024x480.png" alt=""></div>
+        <div class="swiper-slide"><img src="https://png.pngtree.com/thumb_back/fh260/back_our/20190619/ourmid/pngtree-summer-juice-fresh-milk-tea-poster-background-image_133501.jpg" alt=""></div>
         <div class="swiper-slide"><img src="images/pic13.jpg" alt=""></div>
     </div>
     <div class="swiper-button-next"></div>

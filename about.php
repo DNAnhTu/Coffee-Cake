@@ -38,7 +38,7 @@
             <div class="column-b">
                 <div class="content-b">
                     <div class="content-c">
-                        <img src="https://i0.wp.com/www.eatthis.com/wp-content/uploads/2020/07/coffee-tea.jpg?fit=1200%2C879&ssl=1" alt="" style="width: 400px;">
+                        <img src="https://www.starbucks.vn/media/opportunity_tcm90-24617_w1024_n.png" alt="" style="width: 400px;">
                     </div>
                 </div>
             </div>

@@ -21,7 +21,7 @@
             <!--2-->
             <div class="swiper-slide">
                 <div class="container-fb">
-                    <img src="https://i.pinimg.com/originals/66/fc/ef/66fcefe474a02067dcd972bd2bd43733.jpg" alt="">
+                    <img src="https://file.hstatic.net/1000360860/article/5.1_e8b2517d28814c95bf45858b99645628_grande.png" alt="">
                     <div class="content-fb">
                         <h1><a href="http://localhost/coffee-cake/products.php" style="color: #a1a19f; text-decoration:none;">Valentime Day (14-2)</a></h1>
                         <p>Mua 2 tặng 1 nhanh chân lên nào và nhìu phần quà hấp dẫn cho các couple</p>
@@ -31,7 +31,7 @@
             <!--3-->
             <div class="swiper-slide">
                 <div class="container-fc">
-                    <img src="https://marketingreview.vn/wp-content/uploads/2017/10/852.jpg" alt="">
+                    <img src="https://skyenter.vn/photos/C%E1%BA%A9m%20nang/KT%20Tra%20sua/thuong/19221482_674252026093854_4638248219731049451_o.jpg" alt="">
                     <div class="content-fc">
                         <h1><a href="http://localhost/coffee-cake/products.php" style="color: #a1a19f; text-decoration:none;">Mừng Khai Trương</a></h1>
                         <p>Khai trương tưng bừng trà sữa ngập tràng nhanh chân lên nào</p>
